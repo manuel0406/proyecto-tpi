@@ -1,4 +1,4 @@
-package com.tpi.pedidos.Entity;
+package com.tpi.gpdrl.Entity;
 
 import java.sql.Date;
 
@@ -25,7 +25,7 @@ public class Cliente {
     }
 
     public Cliente(String nombreCliente, String apellidoCliente, String generoCliente, Date fechaNacimientoC,
-            com.tpi.pedidos.Entity.Usuario usuario) {
+            com.tpi.gpdrl.Entity.Usuario usuario) {
         this.nombreCliente = nombreCliente;
         this.apellidoCliente = apellidoCliente;
         this.generoCliente = generoCliente;
@@ -34,7 +34,7 @@ public class Cliente {
     }
 
     public Cliente(int idCliente, String nombreCliente, String apellidoCliente, String generoCliente,
-            Date fechaNacimientoC, com.tpi.pedidos.Entity.Usuario usuario) {
+            Date fechaNacimientoC, com.tpi.gpdrl.Entity.Usuario usuario) {
         this.idCliente = idCliente;
         this.nombreCliente = nombreCliente;
         this.apellidoCliente = apellidoCliente;

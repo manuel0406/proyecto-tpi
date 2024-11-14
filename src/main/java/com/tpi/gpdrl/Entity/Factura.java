@@ -1,4 +1,4 @@
-package com.tpi.pedidos.Entity;
+package com.tpi.gpdrl.Entity;
 
 import java.sql.Date;
 

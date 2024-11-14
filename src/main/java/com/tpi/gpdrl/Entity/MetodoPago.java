@@ -1,4 +1,4 @@
-package com.tpi.pedidos.Entity;
+package com.tpi.gpdrl.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
