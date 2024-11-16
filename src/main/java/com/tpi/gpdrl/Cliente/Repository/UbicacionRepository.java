@@ -6,4 +6,5 @@ import com.tpi.gpdrl.Entity.Ubicacion;
 
 public interface UbicacionRepository extends JpaRepository<Ubicacion,Integer>{
     
+    
 }
